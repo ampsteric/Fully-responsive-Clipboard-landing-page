@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: rgb(85, 83, 83);
+}
+.one{
+    background-image: url('./images/bg-header-desktop.png');
+    height: 300px;
+    width: 100%;
+}
+.one img{
+    margin: 150px 0px;
+}
+.two{
+    margin: 100px auto;
+}
+.btn{
+    background-color: #26BBA4;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: 0;
+}
+button{
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: 0;
+    background-color: rgb(66, 133, 244);
+
+}
+.three{
+    margin: 50px 600px;
+}
+.four{
+    display: flex;
+    margin-left: 50px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.ek{
+    margin-top: 100px;
+
+}
+.six{
+    display: flex;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+    padding: 50px;
+}
+.seven{
+    display: flex;
+    margin: 50px 50px;
+}
+.jai{
+    margin: 50px 80px;
+}
+p{
+    color: rgb(165, 161, 161);
+    padding: 10px 200px;
+}
+h2{
+    font-size: 10px;
+}
+.jai img{
+    height: 40px;
+}
+.bonza{
+    margin-left: 200px;
+}
+li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:414px){
+    body{
+        color: rgb(85, 83, 83);
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .one {
+        background-image: url(./images/bg-header-desktop.png);
+        height: 300px;
+        width: 230%;
+    }
+    .one img{
+        margin: 150px 0px;
+    }
+    .two{
+height: 100px;
+width: 500px;       
+ margin: 100px 200px;
+
+    }
+    .btn{
+        background-color: #26BBA4;
+        padding: 10px 20px;
+        border-radius: 20px;
+        outline: none;
+        border: 0;
+    }
+    button{
+        margin-right: 10px;
+        padding: 10px 20px;
+        border-radius: 20px;
+        outline: none;
+        border: 0;
+        background-color: rgb(66, 133, 244);
+    
+    }
+    .three {
+        height: 100px;
+width: 500px;  
+        margin: 50px 230px;
+    }
+    .four{
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+    }
+    
+    .right{
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 1000px;
+    }
+    .ek{
+        margin-top: 100px;
+    
+    }
+    .six{
+        display: flex;
+        width: 900px;
+    }
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0px;
+        padding: 10px;
+        width: 33%;
+    }
+    .seven{
+        display: flex;
+        margin: 50px 0px;
+    }
+    .jai{
+        margin: 50px 10px;
+    }
+    p {
+        color: rgb(165, 161, 161);
+        padding: 10px 30px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    .jai img{
+        height: 40px;
+    }
+    
+    
+    .bonza li{
+        list-style: none;
+        float: left;
+        /* margin-right: 20px; */
+        margin-top: 50px;
+    }
+    .seven .jai{
+        margin: 50px 50px;
+
+    }
+}
